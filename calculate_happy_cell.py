@@ -1,4 +1,4 @@
-def cell_happines(world, i, j, num_same_for_happiness):
+def happy_cell(world, i, j, num_same_for_happiness):
     cur_happy = 0
     cur_cell_value = world[i, j]
     x, y = world.shape
